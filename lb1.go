@@ -13,7 +13,7 @@ func main() {
     fmt.Println("Введите имя файла содержащего 1 матрицу:")
     fmt.Scanf("%s\n", &name)
 
-    fileName := name + ".txt"
+    fileName := name + ".tx"
     file, err := os.Open(fileName)
     if err != nil {
         fmt.Println("Ошибка при открытии файла:", err)
