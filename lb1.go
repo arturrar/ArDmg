@@ -10,7 +10,7 @@ import (
 func main() {
     var name string
     fmt.Println("Введите имя файла содержащего 1 матрицу:")
-    fmt.Scanf("%s\n", &master)
+    fmt.Scanf("%s\n", &lib)
 
     fileName := name + ".txt"
     file, err := os.Open(fileName)
