@@ -7,7 +7,6 @@ import (
     "strconv"
     "strings"
 )
-
 func main() {
     var name string
     fmt.Println("Введите имя файла содержащего 1 матрицу:")
